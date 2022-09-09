@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF800F;
+    --primary: gray;
     --secondary: #001064;
     --light: #F6F7F8;
     --dark: #010A35;
@@ -397,7 +397,8 @@
 
 /*** Footer ***/
 .footer {
-    color: #7F8499;
+    background-color: rgb(248, 10, 201);
+    color: #fff;
 }
 
 .footer .btn.btn-link {
@@ -455,4 +456,8 @@
     height: 5rem;
     justify-content: center;
     align-items: center;
+}
+
+.logo-nav {
+    height: 6rem;
 }
