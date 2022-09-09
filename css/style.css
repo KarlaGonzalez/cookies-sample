@@ -156,7 +156,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(1, 10, 53, .8);
+    /* background: rgba(1, 10, 53, .8); */
     z-index: 1;
 }
 
@@ -189,7 +189,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(1, 10, 53, .8), rgba(1, 10, 53, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(1, 10, 53, .8), rgba(1, 10, 53, .8)), url(../img/cook_bg.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -447,4 +447,12 @@
 
 .footer .copyright a:hover {
     color: #FFFFFF;
+}
+
+/* Extras */
+.product-box {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
 }
